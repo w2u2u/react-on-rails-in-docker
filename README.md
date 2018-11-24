@@ -7,7 +7,11 @@ This project use **Ruby on rails as Backend**, **React as Frontend** and **Postg
 
 Create, migrate and seed database
 
-	docker-compose run backend rails db:reset
+	docker-compose run backend rails db:setup
+	
+Reset and re-seed database
+
+	docker-compose run backend rails db:setup
 
 Build backend and frontend application
 
